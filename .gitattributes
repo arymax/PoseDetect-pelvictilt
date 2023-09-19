@@ -1,0 +1,8 @@
+*.py filter=lfs diff=lfs merge=lfs -text
+*pth filter=lfs diff=lfs merge=lfs -text
+checkpoint filter=lfs diff=lfs merge=lfs -text
+*/checkpoint filter=lfs diff=lfs merge=lfs -text
+*.pth filter=lfs diff=lfs merge=lfs -text
+mask_rcnn_r50_caffe_fpn_1x_coco_bbox_mAP-0.38__segm_mAP-0.344_20200504_231812-0ebd1859.pth filter=lfs diff=lfs merge=lfs -text
+/data1/data/vscode-ml/posedetect/PoseDetect-pelvictilt/mask_rcnn_r50_caffe_fpn_1x_coco_bbox_mAP-0.38__segm_mAP-0.344_20200504_231812-0ebd1859.pth filter=lfs diff=lfs merge=lfs -text
+/data1/data/vscode-ml/posedetect/PoseDetect-pelvictilt/checkpoint/best_coco_AP_epoch_70.pth filter=lfs diff=lfs merge=lfs -text
