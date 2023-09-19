@@ -1,0 +1,5 @@
+outs:
+- md5: 255241a110e7964577b188878a69f136
+  size: 275581053
+  hash: md5
+  path: best_coco_AP_epoch_70.pth
