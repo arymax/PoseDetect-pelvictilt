@@ -13,7 +13,7 @@
 
 ```bash
 # 克隆此專案
-git clone [您的專案連結]
+git clone https://github.com/arymax/PoseDetect-pelvictilt.git
 
 # 安裝DVC
 pip install dvc
