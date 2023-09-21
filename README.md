@@ -1,32 +1,33 @@
-# 骨盆位置侦测项目
+# 骨盆位置偵測專案
 
-这个专案专注于骨盆位置的侦测和判断。我们使用了mmdetection和mmpose的预训练模型来实现这一目标。
+這個專案專注於骨盆位置的偵測和判斷。我們使用了mmdetection和mmpose的預訓練模型來實現這一目標。
 
-## 前提条件
+## 前提條件
 
-在开始之前，确保您已经安装了以下框架：
+在開始之前，確保您已經安裝了以下框架：
 
 - [mmpose](https://mmpose.readthedocs.io/zh_CN/latest/installation.html)
 - [mmdetection](https://mmdetection.readthedocs.io/zh_CN/v2.25.0/get_started.html#id2)
 
-## 安装与使用
+## 安裝與使用
 
 ```bash
-# 克隆此专案
-git clone [您的专案链接]
+# 克隆此專案
+git clone [您的專案連結]
 
-# 安装DVC
+# 安裝DVC
 pip install dvc
 
-# 设置DVC远程储存库
+# 設定DVC遠程儲存庫
 dvc remote add -d storage gdrive://1Y9hJrHAqAoGMc4NunYC8ARZFH855H1WS
 
-# 下载模型
+# 下載模型
 dvc pull
 
 # 推理您的照片
-# 注意: 请先修改`inference.py`中的图片路径
+# 注意: 請先修改`inference.py`中的圖片路徑
 python inference.py
+
 ```
 ## 引文
 
