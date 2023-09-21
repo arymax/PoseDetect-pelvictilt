@@ -164,3 +164,6 @@ def process_image(image_path):
     
     os.remove(cropped_image_path)
     return output_file
+if __name__ == "__main__":
+    image_path = "./22835_0.jpg"  # 替换为您的图像路径
+    process_image(image_path)
